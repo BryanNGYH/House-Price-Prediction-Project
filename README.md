@@ -9,7 +9,7 @@ Packages: Pandas, Numpy, Sklearn,xgboost,  Matplotlib, Seaborn, re, Flask, json,
 Dataset : [Bengaluru House price data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)\
 Flask Productionization : [Machine Learning & Data Science Project - 7 : Website or UI (Real Estate Price Prediction Project)](https://www.youtube.com/watch?v=rD2xumR98w8&t=98s)
 ## Data Preprocessing
-To train the Machine Learning model, we preprocess and cleaned the data to ensure the model can accurately predict with consistent performance. Here are the steps that I have took:-
+To train the Machine Learning model, I preprocessed and cleaned the data to ensure the model can accurately predict with consistent performance. Here are the steps that I have took:-
 
 - Check for duplicated data input and remove them
 - Used mean imputation to fill in missing value for 'balcony' column 

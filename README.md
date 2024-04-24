@@ -27,7 +27,7 @@ To train the Machine Learning model, we preprocess and cleaned the data to ensur
 Before the data is loaded into the model for training, once again I check the correlation between features used for prediction to avoid multicollinearity.
 
 Below is the screenshot of correlation between features.\
-![correlation_of_features](https://github.com/BryanNGYH/House-Price-Prediction-Project/blob/master/image/correlation_of_features.png?raw=true)\
+![correlation_of_features](https://github.com/BryanNGYH/House-Price-Prediction-Project/blob/master/image/correlation_of_features.png?raw=true)
 
 As 'bath' and 'rooms' have high correlation, I have selected only 'rooms' feature for training and prediction. The final features used to predict the models are as follows:-
 - **availability**

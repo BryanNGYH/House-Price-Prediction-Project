@@ -27,7 +27,7 @@ To train the Machine Learning model, we preprocess and cleaned the data to ensur
 Before the data is loaded into the model for training, once again I check the correlation between features used for prediction to avoid multicollinearity.
 
 Below is the screenshot of correlation between features.\
-![correlation_of_features](https://github.com/BryanNGYH/House_Prediction_Project/blob/master/image/correlation_of_features.png?raw=true)\
+![correlation_of_features](https://github.com/BryanNGYH/House-Price-Prediction-Project/blob/master/image/correlation_of_features.png?raw=true)\
 
 As 'bath' and 'rooms' have high correlation, I have selected only 'rooms' feature for training and prediction. The final features used to predict the models are as follows:-
 - **availability**
@@ -53,7 +53,7 @@ As expected, XG Boost Regressor is the best model and outperformed (Accuracy) ot
     3. Linear Regression - -19.70
     4. Lasso Regression - -24.43
 ## Productionization of the model
-![correlation_of_features](https://github.com/BryanNGYH/House_Prediction_Project/blob/master/image/UI%20picture.png?raw=true)
+![UI](https://github.com/BryanNGYH/House-Price-Prediction-Project/blob/master/image/UI%20picture.png?raw=true)
 
 In the last step, I used the pickled model and exported it to a Python Flask server. The server is hosted on a local web server and provides HTTP endpoints to handle incoming requests.
 

@@ -9,8 +9,8 @@ To train the Machine Learning model, I preprocessed and cleaned the data to ensu
 - Used mean imputation to fill in missing values for the 'balcony' column
 - Remove missing values that are less than 1% of the total dataset
 - Feature engineered 'total_sqft' which has inconsistent metrics:-
-    1. Replaced range values with mean value of the min and max value
-    2. Converted other metrics into square feet 
+  1. Replaced range values with mean value of the min and max value
+  2. Converted other metrics into square feet 
 - Feature-engineered 'bhk' columns to extract the number of rooms
 - Performed Label Encoding on the 'availability' column
 - Feature-engineered 'location' columns to reduce the number of unique values by labeling location with less than or equal to 10 entries as 'others'
@@ -41,10 +41,10 @@ Here, I tested 4 regression models to predict the house prices.
 ## Model Performance
 As expected, the XG Boost Regressor is the best model and outperformed (Accuracy) others on the test dataset.
 
-    1. XG Boost Regressor - 0.77
-    2. Decision Tree Regressor - 0.70
-    3. Linear Regression - -19.70
-    4. Lasso Regression - -24.43
+1. **XG Boost Regressor** - 0.77
+2. **Decision Tree Regressor** - 0.70
+3. **Linear Regression** - -19.70
+4. **Lasso Regression** - -24.43
 
 ## Productionization of the model
 ![UI](https://github.com/BryanNGYH/House-Price-Prediction-Project/blob/master/image/UI%20picture.png?raw=true)\
